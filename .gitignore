@@ -1,3 +1,4 @@
 .temp
 compile-errors.log
 compile.log
+.DS_Store
