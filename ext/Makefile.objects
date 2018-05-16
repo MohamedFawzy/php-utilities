@@ -1,0 +1,48 @@
+utility.lo: /Users/mohamedfawzy/utility/ext/utility.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/utility.c -o utility.lo 
+kernel/main.lo: /Users/mohamedfawzy/utility/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /Users/mohamedfawzy/utility/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /Users/mohamedfawzy/utility/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/debug.lo: /Users/mohamedfawzy/utility/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /Users/mohamedfawzy/utility/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /Users/mohamedfawzy/utility/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /Users/mohamedfawzy/utility/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/array.c -o kernel/array.lo 
+kernel/string.lo: /Users/mohamedfawzy/utility/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /Users/mohamedfawzy/utility/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/require.lo: /Users/mohamedfawzy/utility/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /Users/mohamedfawzy/utility/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /Users/mohamedfawzy/utility/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /Users/mohamedfawzy/utility/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /Users/mohamedfawzy/utility/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /Users/mohamedfawzy/utility/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /Users/mohamedfawzy/utility/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /Users/mohamedfawzy/utility/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /Users/mohamedfawzy/utility/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /Users/mohamedfawzy/utility/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/kernel/exit.c -o kernel/exit.lo 
+utility/arrays.lo: /Users/mohamedfawzy/utility/ext/utility/arrays.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/mohamedfawzy/utility/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/mohamedfawzy/utility/ext/utility/arrays.zep.c -o utility/arrays.lo 
+$(phplibdir)/utility.la: ./utility.la
+	$(LIBTOOL) --mode=install cp ./utility.la $(phplibdir)
+
+./utility.la: $(shared_objects_utility) $(UTILITY_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_utility) $(UTILITY_SHARED_LIBADD)
+
